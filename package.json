@@ -1,8 +1,10 @@
 {
-  "name": "multi-install-modules",
+  "name": "mim",
   "version": "0.0.1",
   "description": "command-line app for installing node_modules in child dir where package.json exists",
   "main": "index.js",
+  "preferGlobal": true,
+  "bin": "./index.js",
   "scripts": {
     "start": "node ./index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -27,6 +29,7 @@
   "dependencies": {
     "chalk": "^2.4.2",
     "clear": "^0.1.0",
+    "commander": "^2.19.0",
     "execa": "^1.0.0",
     "figlet": "^1.2.1",
     "inquirer": "^6.2.2"
