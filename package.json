@@ -8,7 +8,7 @@
     "start": "node ./index.js"
   },
   "files": [
-    "./lib/*",
+    "./lib/*.*",
     "./index.js"
   ],
   "repository": {
