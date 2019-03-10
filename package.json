@@ -8,8 +8,8 @@
     "start": "node ./index.js"
   },
   "files": [
-    "./lib/",
-    "./index.js"
+    "lib/",
+    "index.js"
   ],
   "repository": {
     "type": "git",
