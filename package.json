@@ -3,11 +3,14 @@
   "version": "1.0.3",
   "description": "Command-line app for installing node_modules in child dir where package.json exists",
   "main": "index.js",
-  "preferGlobal": true,
   "bin": "./index.js",
   "scripts": {
     "start": "node ./index.js"
   },
+  "files": [
+    "./lib/*",
+    "./index.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RomaTur/multi-install-modules.git"
@@ -36,5 +39,8 @@
     "figlet": "^1.2.1",
     "inquirer": "^6.2.2",
     "listr": "^0.14.3"
+  },
+  "publishConfig": {
+    "global" : true
   }
 }
