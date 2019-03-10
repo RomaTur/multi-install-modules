@@ -1,7 +1,4 @@
 #!/usr/bin/env node
-require('babel-register')({
-	presets: [ 'es2015' ],
-});
 
 const program = require('commander');
 const run = require('./lib/main');
