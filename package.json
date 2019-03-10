@@ -1,13 +1,12 @@
 {
-  "name": "mim",
-  "version": "0.1.0",
-  "description": "command-line app for installing node_modules in child dir where package.json exists",
+  "name": "muinmo",
+  "version": "1.0.0",
+  "description": "Command-line app for installing node_modules in child dir where package.json exists",
   "main": "index.js",
   "preferGlobal": true,
   "bin": "./index.js",
   "scripts": {
-    "start": "node ./index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./index.js"
   },
   "repository": {
     "type": "git",
@@ -20,8 +19,11 @@
     "modules",
     "utility"
   ],
-  "author": "Roman Turusov",
-  "license": "ISC",
+  "author": {
+    "name": "Roman Turusov",
+    "email": "mr.romatur@gmail.com"
+  },
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/RomaTur/multi-install-modules/issues"
   },

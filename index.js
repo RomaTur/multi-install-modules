@@ -9,7 +9,7 @@ const { version } = require('./package.json');
 
 program
 	.version(version)
-	.description('Contact management system')
+	.description('Util for installing node_modules in all child directory')
 	.action(()=> {
 		run();
 	});
