@@ -1,6 +1,6 @@
 {
   "name": "muinmo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Command-line app for installing node_modules in child dir where package.json exists",
   "main": "index.js",
   "preferGlobal": true,
@@ -38,8 +38,6 @@
     "listr": "^0.14.3"
   },
   "devDependencies": {
-    "babel-preset-es2015": "^6.24.1",
-    "babel-register": "^6.26.0",
     "eslint-config-prettier": "^4.1.0",
     "eslint-plugin-prettier": "^3.0.1",
     "prettier": "^1.16.4",
