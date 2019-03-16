@@ -9,7 +9,7 @@
     "build": "babel src -d build"
   },
   "files": [
-    "lib/",
+    "build/",
     "index.js"
   ],
   "repository": {

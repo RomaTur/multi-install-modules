@@ -1,8 +1,7 @@
-#!/usr/bin/env node
-
+require('@babel/polyfill');
 const program = require('commander');
 const run = require('./lib/main');
-const version = require('./package.json').version;
+const version = require('../package.json').version;
 
 program
 	.version(version)

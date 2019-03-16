@@ -1,2 +1,2 @@
-require('@babel/polyfill');
+#!/usr/bin/env node
 require('./build');
