@@ -1,4 +1,5 @@
 const fs = require('fs');
+const path = require('path');
 const os = require('os');
 const execa = require('execa');
 const inquirer = require('inquirer');
@@ -39,6 +40,8 @@ class Program {
 			try {
 				await this.getUserName();
 				await new Promise(async (resolve, reject) => {
+					let font = fs.readFileSync(path.join(__dirname, '../fonts/cybermedium.flf'), 'utf8');
+					await figlet.parseFont('cybermedium', font);
 					await figlet.text(`${c.introText} ${this.username}`, {
 						font: 'cybermedium', // Varsity, Swan
 					}, (err, data) => {
