@@ -2,7 +2,7 @@
 
 const program = require('commander');
 const run = require('./lib/main');
-const { version } = require('./package.json');
+const version = require('./package.json').version;
 
 program
 	.version(version)
