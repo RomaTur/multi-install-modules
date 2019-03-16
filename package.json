@@ -1,6 +1,6 @@
 {
   "name": "muinmo",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "Command-line app for installing node_modules in child dir where package.json exists",
   "main": "index.js",
   "bin": "./index.js",
